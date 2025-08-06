@@ -1,0 +1,7 @@
+days = int(input('Enter the number of days you rented the car: '))
+km = float(input('Enter the number of kilometers driven: '))
+cost = (days * 60) + (km * 0.15)
+print("=" * 53)
+print("The cost per day is R$60 and per kilometer driven is R$0.15")
+print("=" * 53)
+print("The cost of the rented car for {} days and {} km driven is R${:.2f}".format(days, km, cost))
